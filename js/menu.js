@@ -33,7 +33,7 @@ outputs[0].addEventListener("keydown", function(e)
     if(e.which == 13)
     {
         this.setAttribute("contenteditable", "false");
-        this.classList.remove("tornarConteudoEditavel");
+        this.classList.remove("conteudo-editavel");
         if(Number(this.textContent) > 1000) this.textContent = 1000;
         rangeStar.value = Number(this.textContent);
     }
@@ -44,7 +44,7 @@ outputs[1].addEventListener("keydown", function(e)
     if(e.which == 13)
     {
         this.setAttribute("contenteditable", "false");
-        this.classList.remove("tornarConteudoEditavel");
+        this.classList.remove("conteudo-editavel");
         if(Number(this.textContent) > 1000) this.textContent = 1000;
         rangeAsteroide.value = Number(this.textContent);
     }
@@ -54,7 +54,7 @@ outputs[2].addEventListener("keydown", function(e)
     if(e.which == 13)
     {
         this.setAttribute("contenteditable", "false");
-        this.classList.remove("tornarConteudoEditavel");
+        this.classList.remove("conteudo-editavel");
         if(Number(this.textContent) > 1000) this.textContent = 1000;
         rangePlanetas.value = Number(this.textContent);
     }
