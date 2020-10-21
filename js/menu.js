@@ -68,5 +68,5 @@ function tornarConteudoEditavel()
 
 document.getElementById("btn-comeca").addEventListener("click", function()
 {
-    window.location.href = "constellation.html?" + rangeStar.value + "?" + rangeAsteroide.value + "?" + rangePlanetas.value;
+    window.location.href = "https://thalysf.github.io/Canvas-Constellation/constellation?" + rangeStar.value + "?" + rangeAsteroide.value + "?" + rangePlanetas.value;
 });
