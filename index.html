@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon/constellation.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <title>Bem-Vindo, Viajante</title>
+</head>
+<body>
+    <div id="menu-area" class="centralizar">
+        <h1 class="main-title">&#10025</h1>
+        <div id="personagem" class="box-content">
+            <h2>Personagem Jogável</h2>
+            <img src="img/sprites/planet.png" alt="character" id="character">
+        </div>
+        <div id="controles" class="box-content">
+            <h2>Controles</h2>
+            <img src="img/ilustracoes/WASD_AND_ARROWS.png" alt="controls" id="controls">
+        </div>
+        <div id="predefinicoes" class="box-content">
+            <h2>Predefinições</h2>
+            <label for="numEstrelas">Estrelas: <span id="outputStar" contenteditable="false" class="output">0</span></label>
+            <input type="range" id="numEstrelas" min="1" max="1000">
+            <label for="numAsteroides">Asteróides: <span id="outputAsteroide"  contenteditable="false" class="output">0</span></label>
+            <input type="range" id="numAsteroides" min="1" max="1000">
+            <label for="numPlanetas">Planetas: <span id="outputPlaneta" contenteditable="false" class="output">0</span></label>
+            <input type="range" id="numPlanetas" min="1" max="1000">
+            <button id="btn-comeca">Jogar</button>
+        </div>
+        <h1 class="main-title">&#10025</h1>
+    </div>
+    <script src="js/menu.js"></script>
+</body>
+</html>

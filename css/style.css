@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #001447c0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#myCanvas
+{
+    background-color: #242c41;
+    box-shadow: 1px 1px 40px 10px rgb(32, 4, 4);
+    border-radius: .3rem;
+}
+.centralizar{
+    position: absolute;
+    top: 50%;       
+    left: 50%;                  
+    transform: translate(-50%, -50%);
+}
+img{
+    display: none;
+}

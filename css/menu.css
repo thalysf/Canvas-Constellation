@@ -1,0 +1,116 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('../img/background/background.png');
+}
+#menu-area{
+    background-color: #f1f1f1;
+    height: 95vh;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid transparent;
+    border-radius: .4rem;
+    box-shadow: 4px 4px 40px 10px #153177;
+    overflow-y: scroll;
+}
+.main-title
+{
+    color: #00afceda;
+    font-family: Impact !important;
+    text-align: center;
+    font-size: 18px;
+}
+.box-content
+{
+    text-align: center;
+}
+img{
+    display: block !important;
+    width: 128px;
+    height: 128x;
+    margin: 0 auto;
+}
+#controls
+{
+    width: 280px;
+    height: 140px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+input[type="range"]{
+    -webkit-appearance: none;
+    width: 50%;
+    height: 25px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: all linear .2s;
+    margin-bottom: 15px;
+}
+input[type="range"]:hover
+{
+    opacity: 1;
+}
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #0393d6;
+    cursor: pointer;
+}
+input[type="range"]::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #0393d6;
+    cursor: pointer;
+}
+button#btn-comeca{
+    background-color: #0393d6;
+    color: #FFF;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    width: 24%;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid #04a0e9;
+    border-radius: .3rem;
+}
+
+.conteudo-editavel{
+    outline: none;
+    color: #0393d6;
+}
+
+@media screen and (max-width: 1048px)
+{
+    #menu-area{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 640px)
+{
+    #menu-area{
+        width: 80%;
+    }
+    #btn-comeca{
+        width: 30% !important;
+        height: 46px !important;
+    }
+}
+@media screen and (max-width: 400px)
+{
+    #menu-area{
+        width: 90%;
+    }
+    #btn-comeca{
+        width: 38% !important;
+        height: 48px !important;
+    }
+}
